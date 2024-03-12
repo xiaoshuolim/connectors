@@ -15,7 +15,15 @@
 ##        service_type: changeme # The service type of the connector.
 ##        api_key: changeme # The Elasticsearch API key used to write data into the content index.
 #connectors: []
-#
+#connectors:
+connectors:
+-
+  connector_id: "workatoconnector"
+  service_type: "changeme"
+  api_key: "clZYRE1vNEJPZWYyQ1gydE9MYzk6S1pxakNNbmZSbC1YMVlIbmptc0ZaZw=="
+elasticsearch:
+  host: "https://eb95e0a447934e30a1dde86130cb94f1.us-central1.gcp.cloud.es.io:443"
+  api_key: "clZYRE1vNEJPZWYyQ1gydE9MYzk6S1pxakNNbmZSbC1YMVlIbmptc0ZaZw=="
 #
 ##  The ID of the connector.
 ##    (Deprecated. Configure the connector client in an object in the `connectors` list)
