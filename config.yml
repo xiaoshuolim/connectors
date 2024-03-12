@@ -19,7 +19,7 @@
 connectors:
 -
   connector_id: "workatoconnector"
-  service_type: "changeme"
+  service_type: ""
   api_key: "clZYRE1vNEJPZWYyQ1gydE9MYzk6S1pxakNNbmZSbC1YMVlIbmptc0ZaZw=="
 elasticsearch:
   host: "https://eb95e0a447934e30a1dde86130cb94f1.us-central1.gcp.cloud.es.io:443"
